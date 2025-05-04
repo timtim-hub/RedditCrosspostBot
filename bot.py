@@ -3,6 +3,8 @@ import sys
 import logging
 import json
 from pathlib import Path
+import praw
+from utils import helpers
 
 # Add config and utils to path
 sys.path.append(str(Path(__file__).parent / 'config'))
@@ -41,7 +43,37 @@ logger.info(f"Ready to crosspost {POST_URL} to {len(SUBREDDITS)} subreddits.")
 
 # Placeholder for crossposting logic
 def main():
-    logger.info("Bot initialized. Crossposting logic not yet implemented.")
+    logger.info("Starting crossposting bot...")
+    if not accounts or not accounts.get('accounts'):
+        logger.error("No accounts found in accounts.json.")
+        return
+    account = accounts['accounts'][0]  # Use the first account for now
+    reddit = praw.Reddit(
+        client_id=account['client_id'],
+        client_secret=account['client_secret'],
+        username=account['username'],
+        password=account['password'],
+        user_agent=account['user_agent']
+    )
+    logger.info(f"Logged in as {account['username']}")
+    # Get the original submission
+    try:
+        submission = reddit.submission(url=POST_URL)
+        logger.info(f"Loaded original post: {submission.title}")
+    except Exception as e:
+        logger.error(f"Failed to load original post: {e}")
+        return
+    for subreddit_name in SUBREDDITS:
+        try:
+            logger.info(f"Crossposting to r/{subreddit_name}")
+            cross = submission.crosspost(subreddit=subreddit_name, send_replies=False)
+            cross_url = f"https://www.reddit.com{cross.permalink}"
+            logger.info(f"Crossposted to r/{subreddit_name}: {cross_url}")
+            # Buy 5 upvotes for the crosspost
+            upvote_result = helpers.order_post_upvotes(cross_url, 5, account)
+            logger.info(f"Upvote order result for {cross_url}: {upvote_result}")
+        except Exception as e:
+            logger.error(f"Error crossposting to r/{subreddit_name}: {e}")
 
 if __name__ == "__main__":
     main() 

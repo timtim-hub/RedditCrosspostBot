@@ -9,6 +9,7 @@ from typing import Dict, List, Optional
 
 import praw
 import prawcore
+import requests
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -268,3 +269,44 @@ def has_already_commented(reddit, submission) -> bool:
     except Exception as e:
         logger.error(f"Error checking if already commented: {e}")
         return True  # Assume already commented to be safe 
+
+def order_post_upvotes(post_url, quantity, account_config):
+    """Order upvotes for a post from redupvotes API using the account's API key and URL."""
+    try:
+        service_id = 1  # Service ID 1 is for Post Upvotes
+        api_url = account_config.get('redupvotes_api_url')
+        api_key = account_config.get('redupvotes_api_key')
+        if not api_url or not api_key:
+            logging.error("Missing redupvotes API credentials in account config.")
+            return {"error": "Missing redupvotes API credentials."}
+        order_response = requests.post(
+            api_url,
+            data={
+                'key': api_key,
+                'action': 'add',
+                'service': service_id,
+                'link': post_url,
+                'quantity': quantity
+            }
+        )
+        order_data = order_response.json()
+        if 'order' in order_data:
+            logging.info(f"Successfully ordered {quantity} upvotes for post. Order ID: {order_data['order']}")
+            # Optionally check order status
+            status_response = requests.post(
+                api_url,
+                data={
+                    'key': api_key,
+                    'action': 'status',
+                    'order': order_data['order']
+                }
+            )
+            status_data = status_response.json()
+            logging.info(f"Order status: {json.dumps(status_data)}")
+            return status_data
+        else:
+            logging.error(f"Failed to order upvotes: {order_data}")
+            return order_data
+    except Exception as e:
+        logging.error(f"Error ordering upvotes: {e}")
+        return {"error": str(e)} 

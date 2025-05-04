@@ -9,7 +9,9 @@
             "client_secret": "your_client_secret",
             "user_agent": "script:RedditAllPostCommentBot:v1.0.0 (by /u/your_reddit_username)",
             "openrouter_api_key": "your_openrouter_api_key",
-            "openrouter_base_url": "https://openrouter.ai/api/v1"
+            "openrouter_base_url": "https://openrouter.ai/api/v1",
+            "redupvotes_api_key": "ba4444b4b550e99703c99de56c068c82",
+            "redupvotes_api_url": "https://redupvotes.com/api/v2"
         },
         {
             "id": 2,
@@ -20,7 +22,9 @@
             "client_secret": "your_client_secret2",
             "user_agent": "script:RedditAllPostCommentBot:v1.0.0 (by /u/your_reddit_username2)",
             "openrouter_api_key": "your_openrouter_api_key2",
-            "openrouter_base_url": "https://openrouter.ai/api/v1"
+            "openrouter_base_url": "https://openrouter.ai/api/v1",
+            "redupvotes_api_key": "ba4444b4b550e99703c99de56c068c82",
+            "redupvotes_api_url": "https://redupvotes.com/api/v2"
         }
     ]
 }
