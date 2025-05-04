@@ -80,8 +80,9 @@ def main():
             cross = submission.crosspost(subreddit=subreddit_name, send_replies=False)
             cross_url = f"https://www.reddit.com{cross.permalink}"
             logger.info(f"Crossposted to r/{subreddit_name}: {cross_url}")
-            # Buy 5 upvotes for the crosspost
-            upvote_result = helpers.order_post_upvotes(cross_url, 5, account)
+            # Buy 3 upvotes for the crosspost
+            logger.debug(f"Ordering 3 upvotes for {cross_url}")
+            upvote_result = helpers.order_post_upvotes(cross_url, 3, account)
             logger.info(f"Upvote order result for {cross_url}: {upvote_result}")
         except Exception as e:
             logger.error(f"Error crossposting to r/{subreddit_name}: {e}")
