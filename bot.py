@@ -34,7 +34,7 @@ with open(accounts_path, 'r') as f:
 logger.info(f"Loaded {len(accounts)} accounts.")
 
 # Hardcoded Reddit post URL to crosspost
-POST_URL = "https://www.reddit.com/r/Entrepreneur/comments/xxxxxx/example_post_title/"
+POST_URL = "https://www.reddit.com/r/SocialMediaPro/comments/1kbcvnt/spent_months_compiling_1000_places_to_promote/"
 
 # List of subreddits to crosspost to
 SUBREDDITS = getattr(settings, 'CROSSPOST_SUBREDDITS', [])
@@ -65,6 +65,17 @@ def main():
         return
     for subreddit_name in SUBREDDITS:
         try:
+            # Check if subreddit exists and is public
+            try:
+                subreddit = reddit.subreddit(subreddit_name)
+                if subreddit.subreddit_type == 'private' or subreddit.over18:
+                    logger.warning(f"Skipping r/{subreddit_name}: private or NSFW.")
+                    continue
+                # Try to fetch subreddit display name to confirm existence
+                _ = subreddit.display_name
+            except Exception as sub_err:
+                logger.warning(f"Skipping r/{subreddit_name}: does not exist or inaccessible. Error: {sub_err}")
+                continue
             logger.info(f"Crossposting to r/{subreddit_name}")
             cross = submission.crosspost(subreddit=subreddit_name, send_replies=False)
             cross_url = f"https://www.reddit.com{cross.permalink}"
@@ -74,6 +85,7 @@ def main():
             logger.info(f"Upvote order result for {cross_url}: {upvote_result}")
         except Exception as e:
             logger.error(f"Error crossposting to r/{subreddit_name}: {e}")
+            continue
 
 if __name__ == "__main__":
     main() 
