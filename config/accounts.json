@@ -1,0 +1,26 @@
+{
+    "accounts": [
+        {
+            "id": 1,
+            "name": "Account 1",
+            "username": "your_reddit_username",
+            "password": "your_reddit_password",
+            "client_id": "your_client_id",
+            "client_secret": "your_client_secret",
+            "user_agent": "script:RedditAllPostCommentBot:v1.0.0 (by /u/your_reddit_username)",
+            "openrouter_api_key": "your_openrouter_api_key",
+            "openrouter_base_url": "https://openrouter.ai/api/v1"
+        },
+        {
+            "id": 2,
+            "name": "Account 2",
+            "username": "your_reddit_username2",
+            "password": "your_reddit_password2",
+            "client_id": "your_client_id2",
+            "client_secret": "your_client_secret2",
+            "user_agent": "script:RedditAllPostCommentBot:v1.0.0 (by /u/your_reddit_username2)",
+            "openrouter_api_key": "your_openrouter_api_key2",
+            "openrouter_base_url": "https://openrouter.ai/api/v1"
+        }
+    ]
+}
