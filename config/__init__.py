@@ -1,5 +1,5 @@
 """
-Configuration package for Reddit All Post Comment Bot.
+Configuration package for Reddit Crosspost Bot.
 """
 
-from RedditAllPostCommentBot.config import settings 
+from . import settings 

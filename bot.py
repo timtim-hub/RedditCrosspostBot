@@ -34,12 +34,44 @@ with open(accounts_path, 'r') as f:
 logger.info(f"Loaded {len(accounts)} accounts.")
 
 # Hardcoded Reddit post URL to crosspost
-POST_URL = "https://www.reddit.com/r/SocialMediaPro/comments/1kbcvnt/spent_months_compiling_1000_places_to_promote/"
+POST_URL = "https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/"
 
 # List of subreddits to crosspost to
 SUBREDDITS = getattr(settings, 'CROSSPOST_SUBREDDITS', [])
 
+# Number of upvotes to buy for each crosspost
+UPVOTES_TO_BUY = getattr(settings, 'CROSSPOST_UPVOTES_TO_BUY', 5)
+
 logger.info(f"Ready to crosspost {POST_URL} to {len(SUBREDDITS)} subreddits.")
+logger.info(f"Will buy {UPVOTES_TO_BUY} upvotes for each crosspost.")
+
+# File to track already crossposted subreddits
+CROSSPOSTED_FILE = Path(__file__).parent / 'crossposted_subreddits.json'
+if CROSSPOSTED_FILE.exists():
+    with open(CROSSPOSTED_FILE, 'r') as f:
+        crossposted_subreddits = set(json.load(f))
+else:
+    crossposted_subreddits = set()
+
+def save_crossposted_subreddits(subreddit_name):
+    crossposted_subreddits.add(subreddit_name)
+    with open(CROSSPOSTED_FILE, 'w') as f:
+        json.dump(list(crossposted_subreddits), f)
+
+def crosspost_with_flair(submission, subreddit, subreddit_name):
+    # Try to crosspost with flair if required
+    try:
+        flairs = list(subreddit.flair.link_templates)
+        if not flairs:
+            logger.error(f"No flairs available for r/{subreddit_name}, cannot crosspost.")
+            return None
+        flair_id = flairs[0]['id']
+        logger.info(f"Using flair id {flair_id} for r/{subreddit_name}")
+        cross = submission.crosspost(subreddit=subreddit_name, send_replies=False, flair_id=flair_id)
+        return cross
+    except Exception as e:
+        logger.error(f"Failed to crosspost with flair to r/{subreddit_name}: {e}")
+        return None
 
 # Placeholder for crossposting logic
 def main():
@@ -64,6 +96,9 @@ def main():
         logger.error(f"Failed to load original post: {e}")
         return
     for subreddit_name in SUBREDDITS:
+        if subreddit_name in crossposted_subreddits:
+            logger.info(f"Already crossposted to r/{subreddit_name}, skipping.")
+            continue
         try:
             # Check if subreddit exists and is public
             try:
@@ -77,12 +112,23 @@ def main():
                 logger.warning(f"Skipping r/{subreddit_name}: does not exist or inaccessible. Error: {sub_err}")
                 continue
             logger.info(f"Crossposting to r/{subreddit_name}")
-            cross = submission.crosspost(subreddit=subreddit_name, send_replies=False)
+            try:
+                cross = submission.crosspost(subreddit=subreddit_name, send_replies=False)
+            except praw.exceptions.APIException as api_exc:
+                if api_exc.error_type == 'SUBMIT_VALIDATION_FLAIR_REQUIRED':
+                    logger.info(f"Flair required for r/{subreddit_name}, attempting with flair.")
+                    cross = crosspost_with_flair(submission, subreddit, subreddit_name)
+                    if not cross:
+                        continue
+                else:
+                    logger.error(f"APIException for r/{subreddit_name}: {api_exc}")
+                    continue
             cross_url = f"https://www.reddit.com{cross.permalink}"
             logger.info(f"Crossposted to r/{subreddit_name}: {cross_url}")
-            # Buy 3 upvotes for the crosspost
-            logger.debug(f"Ordering 3 upvotes for {cross_url}")
-            upvote_result = helpers.order_post_upvotes(cross_url, 3, account)
+            save_crossposted_subreddits(subreddit_name)
+            # Buy upvotes for the crosspost
+            logger.debug(f"Ordering {UPVOTES_TO_BUY} upvotes for {cross_url}")
+            upvote_result = helpers.order_post_upvotes(cross_url, UPVOTES_TO_BUY, account)
             logger.info(f"Upvote order result for {cross_url}: {upvote_result}")
         except Exception as e:
             logger.error(f"Error crossposting to r/{subreddit_name}: {e}")

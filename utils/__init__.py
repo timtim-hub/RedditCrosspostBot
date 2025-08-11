@@ -1,3 +1,3 @@
-"""Utility functions for Reddit All Post Comment Bot."""
+"""Utility functions for Reddit Crosspost Bot."""
 
-from RedditAllPostCommentBot.utils import helpers 
+from . import helpers 
