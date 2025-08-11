@@ -4751,3 +4751,263 @@
 2025-05-06 14:38:16,456 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
 2025-05-06 14:38:16,456 INFO Upvote order result for https://www.reddit.com/r/odysee/comments/1kg3f05/used_ai_followers_for_the_first_time_wow/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
 2025-05-06 14:38:16,621 WARNING Skipping r/OdyseeCreators: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:23:45,150 INFO Loaded 1 accounts.
+2025-08-12 00:23:45,150 INFO Ready to crosspost https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/ to 44 subreddits.
+2025-08-12 00:23:45,150 INFO Will buy 5 upvotes for each crosspost.
+2025-08-12 00:23:45,150 INFO Starting crossposting bot...
+2025-08-12 00:23:45,315 INFO Logged in as InevitableCow8909
+2025-08-12 00:23:46,819 INFO Loaded original post: Best emulation handheld again on sale for $22 🥳
+2025-08-12 00:23:47,040 INFO Crossposting to r/PowKiddyX55Handheld
+2025-08-12 00:23:47,757 INFO Crossposted to r/PowKiddyX55Handheld: https://www.reddit.com/r/PowKiddyX55Handheld/comments/1mnr76b/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:48,032 INFO Successfully ordered 5 upvotes for post. Order ID: 160885
+2025-08-12 00:23:48,160 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:48,160 INFO Upvote order result for https://www.reddit.com/r/PowKiddyX55Handheld/comments/1mnr76b/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:48,386 INFO Crossposting to r/RGB30
+2025-08-12 00:23:49,071 INFO Crossposted to r/RGB30: https://www.reddit.com/r/RGB30/comments/1mnr776/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:49,367 INFO Successfully ordered 5 upvotes for post. Order ID: 160886
+2025-08-12 00:23:49,496 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:49,496 INFO Upvote order result for https://www.reddit.com/r/RGB30/comments/1mnr776/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:49,696 INFO Crossposting to r/trimui
+2025-08-12 00:23:49,989 INFO Flair required for r/trimui, attempting with flair.
+2025-08-12 00:23:50,179 INFO Using flair id 51cc2742-f038-11ee-84aa-4665952d7a77 for r/trimui
+2025-08-12 00:23:51,211 INFO Crossposted to r/trimui: https://www.reddit.com/r/trimui/comments/1mnr784/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:51,421 INFO Successfully ordered 5 upvotes for post. Order ID: 160887
+2025-08-12 00:23:51,552 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:51,552 INFO Upvote order result for https://www.reddit.com/r/trimui/comments/1mnr784/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:51,765 INFO Crossposting to r/MiyooMini
+2025-08-12 00:23:51,982 INFO Flair required for r/MiyooMini, attempting with flair.
+2025-08-12 00:23:52,177 INFO Using flair id baa01c66-dc2a-11ec-8245-eeb3f6d45595 for r/MiyooMini
+2025-08-12 00:23:52,962 INFO Crossposted to r/MiyooMini: https://www.reddit.com/r/MiyooMini/comments/1mnr79a/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:53,147 INFO Successfully ordered 5 upvotes for post. Order ID: 160888
+2025-08-12 00:23:53,383 INFO Order status: {"error": "Incorrect order ID"}
+2025-08-12 00:23:53,383 INFO Upvote order result for https://www.reddit.com/r/MiyooMini/comments/1mnr79a/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Incorrect order ID'}
+2025-08-12 00:23:53,587 INFO Crossposting to r/MiyooFlip
+2025-08-12 00:23:54,263 INFO Crossposted to r/MiyooFlip: https://www.reddit.com/r/MiyooFlip/comments/1mnr79w/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:54,452 INFO Successfully ordered 5 upvotes for post. Order ID: 160889
+2025-08-12 00:23:54,609 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:54,610 INFO Upvote order result for https://www.reddit.com/r/MiyooFlip/comments/1mnr79w/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:54,811 INFO Crossposting to r/RG28XX
+2025-08-12 00:23:55,110 INFO Flair required for r/RG28XX, attempting with flair.
+2025-08-12 00:23:55,311 INFO Using flair id 6ee18ad6-f77f-11ee-97ad-72550d6ab1ca for r/RG28XX
+2025-08-12 00:23:56,034 INFO Crossposted to r/RG28XX: https://www.reddit.com/r/RG28XX/comments/1mnr7au/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:56,226 INFO Successfully ordered 5 upvotes for post. Order ID: 160890
+2025-08-12 00:23:56,368 INFO Order status: {"error": "Incorrect order ID"}
+2025-08-12 00:23:56,369 INFO Upvote order result for https://www.reddit.com/r/RG28XX/comments/1mnr7au/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Incorrect order ID'}
+2025-08-12 00:23:56,580 INFO Crossposting to r/RG351
+2025-08-12 00:23:57,245 INFO Crossposted to r/RG351: https://www.reddit.com/r/RG351/comments/1mnr7bf/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:57,440 INFO Successfully ordered 5 upvotes for post. Order ID: 160891
+2025-08-12 00:23:57,577 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:57,577 INFO Upvote order result for https://www.reddit.com/r/RG351/comments/1mnr7bf/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:57,805 INFO Crossposting to r/RG351P
+2025-08-12 00:23:58,521 INFO Crossposted to r/RG351P: https://www.reddit.com/r/RG351P/comments/1mnr7c4/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:23:58,702 INFO Successfully ordered 5 upvotes for post. Order ID: 160892
+2025-08-12 00:23:58,834 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:23:58,835 INFO Upvote order result for https://www.reddit.com/r/RG351P/comments/1mnr7c4/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:23:59,052 INFO Crossposting to r/rg351v
+2025-08-12 00:23:59,821 INFO Crossposted to r/rg351v: https://www.reddit.com/r/rg351v/comments/1mnr7cv/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:00,008 INFO Successfully ordered 5 upvotes for post. Order ID: 160893
+2025-08-12 00:24:00,142 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:00,143 INFO Upvote order result for https://www.reddit.com/r/rg351v/comments/1mnr7cv/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:00,358 INFO Crossposting to r/rg351mp
+2025-08-12 00:24:01,154 INFO Crossposted to r/rg351mp: https://www.reddit.com/r/rg351mp/comments/1mnr7dt/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:01,369 INFO Successfully ordered 5 upvotes for post. Order ID: 160894
+2025-08-12 00:24:01,504 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:01,507 INFO Upvote order result for https://www.reddit.com/r/rg351mp/comments/1mnr7dt/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:01,721 INFO Crossposting to r/rg552
+2025-08-12 00:24:02,525 INFO Crossposted to r/rg552: https://www.reddit.com/r/rg552/comments/1mnr7es/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:02,719 INFO Successfully ordered 5 upvotes for post. Order ID: 160895
+2025-08-12 00:24:02,861 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:02,862 INFO Upvote order result for https://www.reddit.com/r/rg552/comments/1mnr7es/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:03,078 INFO Crossposting to r/RG353P
+2025-08-12 00:24:03,819 INFO Crossposted to r/RG353P: https://www.reddit.com/r/RG353P/comments/1mnr7fg/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:04,006 INFO Successfully ordered 5 upvotes for post. Order ID: 160896
+2025-08-12 00:24:04,139 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:04,139 INFO Upvote order result for https://www.reddit.com/r/RG353P/comments/1mnr7fg/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:04,349 INFO Crossposting to r/RG353V
+2025-08-12 00:24:05,044 INFO Crossposted to r/RG353V: https://www.reddit.com/r/RG353V/comments/1mnr7g2/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:05,202 INFO Successfully ordered 5 upvotes for post. Order ID: 160897
+2025-08-12 00:24:05,359 INFO Order status: {"error": "Incorrect order ID"}
+2025-08-12 00:24:05,360 INFO Upvote order result for https://www.reddit.com/r/RG353V/comments/1mnr7g2/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Incorrect order ID'}
+2025-08-12 00:24:05,679 INFO Crossposting to r/RG353M
+2025-08-12 00:24:06,398 INFO Crossposted to r/RG353M: https://www.reddit.com/r/RG353M/comments/1mnr7gp/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:06,598 INFO Successfully ordered 5 upvotes for post. Order ID: 160898
+2025-08-12 00:24:06,729 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:06,730 INFO Upvote order result for https://www.reddit.com/r/RG353M/comments/1mnr7gp/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:06,951 INFO Crossposting to r/RG505
+2025-08-12 00:24:07,633 INFO Crossposted to r/RG505: https://www.reddit.com/r/RG505/comments/1mnr7hb/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:07,821 INFO Successfully ordered 5 upvotes for post. Order ID: 160899
+2025-08-12 00:24:07,965 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:07,966 INFO Upvote order result for https://www.reddit.com/r/RG505/comments/1mnr7hb/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:08,169 INFO Crossposting to r/RG405M
+2025-08-12 00:24:08,889 INFO Crossposted to r/RG405M: https://www.reddit.com/r/RG405M/comments/1mnr7i7/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:09,051 INFO Successfully ordered 5 upvotes for post. Order ID: 160900
+2025-08-12 00:24:09,185 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:09,186 INFO Upvote order result for https://www.reddit.com/r/RG405M/comments/1mnr7i7/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:09,406 INFO Crossposting to r/ANBERNICRG405V
+2025-08-12 00:24:10,166 INFO Crossposted to r/ANBERNICRG405V: https://www.reddit.com/r/ANBERNICRG405V/comments/1mnr7iy/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:10,361 INFO Successfully ordered 5 upvotes for post. Order ID: 160901
+2025-08-12 00:24:10,486 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:10,487 INFO Upvote order result for https://www.reddit.com/r/ANBERNICRG405V/comments/1mnr7iy/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:10,644 WARNING Skipping r/rg503: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:24:10,800 WARNING Skipping r/RG300X: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:24:11,030 INFO Crossposting to r/RG40XX
+2025-08-12 00:24:11,804 INFO Crossposted to r/RG40XX: https://www.reddit.com/r/rg40xx/comments/1mnr7jv/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:11,976 INFO Successfully ordered 5 upvotes for post. Order ID: 160902
+2025-08-12 00:24:12,257 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:12,258 INFO Upvote order result for https://www.reddit.com/r/rg40xx/comments/1mnr7jv/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:12,475 INFO Crossposting to r/RG35XX_H
+2025-08-12 00:24:13,259 INFO Crossposted to r/RG35XX_H: https://www.reddit.com/r/RG35XX_H/comments/1mnr7kj/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:13,425 INFO Successfully ordered 5 upvotes for post. Order ID: 160903
+2025-08-12 00:24:13,555 INFO Order status: {"error": "Incorrect order ID"}
+2025-08-12 00:24:13,558 INFO Upvote order result for https://www.reddit.com/r/RG35XX_H/comments/1mnr7kj/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Incorrect order ID'}
+2025-08-12 00:24:13,769 INFO Crossposting to r/RG35XX_Plus
+2025-08-12 00:24:13,979 ERROR APIException for r/RG35XX_Plus: SUBMIT_VALIDATION_MAX_LENGTH: 'This community requires title to be under 40 characters' on field 'title'
+2025-08-12 00:24:14,190 INFO Crossposting to r/RG556
+2025-08-12 00:24:14,879 INFO Crossposted to r/RG556: https://www.reddit.com/r/RG556/comments/1mnr7lh/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:15,180 INFO Successfully ordered 5 upvotes for post. Order ID: 160904
+2025-08-12 00:24:15,339 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:15,341 INFO Upvote order result for https://www.reddit.com/r/RG556/comments/1mnr7lh/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:15,547 INFO Crossposting to r/GKDPIXEL
+2025-08-12 00:24:16,255 INFO Crossposted to r/GKDPIXEL: https://www.reddit.com/r/GKDPIXEL/comments/1mnr7m9/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:16,424 INFO Successfully ordered 5 upvotes for post. Order ID: 160905
+2025-08-12 00:24:16,556 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:16,556 INFO Upvote order result for https://www.reddit.com/r/GKDPIXEL/comments/1mnr7m9/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:16,779 INFO Crossposting to r/KTR1
+2025-08-12 00:24:17,670 INFO Crossposted to r/KTR1: https://www.reddit.com/r/KTR1/comments/1mnr7n3/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:18,062 INFO Successfully ordered 5 upvotes for post. Order ID: 160906
+2025-08-12 00:24:18,371 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:18,371 INFO Upvote order result for https://www.reddit.com/r/KTR1/comments/1mnr7n3/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:18,599 INFO Crossposting to r/NewPocketGo
+2025-08-12 00:24:19,314 INFO Crossposted to r/NewPocketGo: https://www.reddit.com/r/NewPocketGo/comments/1mnr7o2/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:19,494 INFO Successfully ordered 5 upvotes for post. Order ID: 160907
+2025-08-12 00:24:19,636 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:19,636 INFO Upvote order result for https://www.reddit.com/r/NewPocketGo/comments/1mnr7o2/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:19,860 INFO Crossposting to r/BATLEXPG350
+2025-08-12 00:24:20,685 INFO Crossposted to r/BATLEXPG350: https://www.reddit.com/r/BATLEXPG350/comments/1mnr7op/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:20,891 INFO Successfully ordered 5 upvotes for post. Order ID: 160908
+2025-08-12 00:24:21,027 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:21,028 INFO Upvote order result for https://www.reddit.com/r/BATLEXPG350/comments/1mnr7op/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:21,252 INFO Crossposting to r/LokiHandheld
+2025-08-12 00:24:21,995 INFO Crossposted to r/LokiHandheld: https://www.reddit.com/r/LokiHandheld/comments/1mnr7pk/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:22,171 INFO Successfully ordered 5 upvotes for post. Order ID: 160909
+2025-08-12 00:24:22,309 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:22,310 INFO Upvote order result for https://www.reddit.com/r/LokiHandheld/comments/1mnr7pk/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:22,560 INFO Crossposting to r/AYNLoki
+2025-08-12 00:24:22,751 ERROR APIException for r/AYNLoki: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:24:22,980 INFO Crossposting to r/GPDWIN
+2025-08-12 00:24:23,685 INFO Crossposted to r/GPDWIN: https://www.reddit.com/r/gpdwin/comments/1mnr7qt/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:23,863 INFO Successfully ordered 5 upvotes for post. Order ID: 160910
+2025-08-12 00:24:23,996 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:23,997 INFO Upvote order result for https://www.reddit.com/r/gpdwin/comments/1mnr7qt/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:24,198 INFO Crossposting to r/GPDPocket
+2025-08-12 00:24:24,419 INFO Flair required for r/GPDPocket, attempting with flair.
+2025-08-12 00:24:24,615 INFO Using flair id 55dac1e2-ab50-11ec-aae8-eeb2e2073070 for r/GPDPocket
+2025-08-12 00:24:25,359 INFO Crossposted to r/GPDPocket: https://www.reddit.com/r/GPDPocket/comments/1mnr7rm/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:25,539 INFO Successfully ordered 5 upvotes for post. Order ID: 160911
+2025-08-12 00:24:25,672 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:25,673 INFO Upvote order result for https://www.reddit.com/r/GPDPocket/comments/1mnr7rm/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:25,889 INFO Crossposting to r/OneXPlayer
+2025-08-12 00:24:26,125 ERROR APIException for r/OneXPlayer: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:24:26,599 INFO Crossposting to r/MSIClaw
+2025-08-12 00:24:26,816 ERROR APIException for r/MSIClaw: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:24:27,017 INFO Crossposting to r/EmulationOnAndroid
+2025-08-12 00:24:27,415 INFO Flair required for r/EmulationOnAndroid, attempting with flair.
+2025-08-12 00:24:27,606 INFO Using flair id c1b775da-d149-11e7-8c4b-0eebf29196ce for r/EmulationOnAndroid
+2025-08-12 00:24:28,392 INFO Crossposted to r/EmulationOnAndroid: https://www.reddit.com/r/EmulationOnAndroid/comments/1mnr7t3/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:28,554 INFO Successfully ordered 5 upvotes for post. Order ID: 160912
+2025-08-12 00:24:28,688 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:28,689 INFO Upvote order result for https://www.reddit.com/r/EmulationOnAndroid/comments/1mnr7t3/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:28,887 INFO Crossposting to r/EmulationOnPC
+2025-08-12 00:24:29,092 ERROR APIException for r/EmulationOnPC: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 00:24:29,292 INFO Crossposting to r/EmulationStation
+2025-08-12 00:24:29,500 ERROR APIException for r/EmulationStation: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:24:29,686 WARNING Skipping r/RetroBat: does not exist or inaccessible. Error: received 404 HTTP response
+2025-08-12 00:24:29,905 INFO Crossposting to r/Portmaster
+2025-08-12 00:24:30,713 INFO Crossposted to r/Portmaster: https://www.reddit.com/r/Portmaster/comments/1mnr7ue/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:30,894 INFO Successfully ordered 5 upvotes for post. Order ID: 160913
+2025-08-12 00:24:31,041 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:31,042 INFO Upvote order result for https://www.reddit.com/r/Portmaster/comments/1mnr7ue/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:31,254 INFO Crossposting to r/playnite
+2025-08-12 00:24:31,491 INFO Flair required for r/playnite, attempting with flair.
+2025-08-12 00:24:31,686 INFO Using flair id 88e01fb0-a731-11ec-be20-463060adc7c0 for r/playnite
+2025-08-12 00:24:32,406 INFO Crossposted to r/playnite: https://www.reddit.com/r/playnite/comments/1mnr7v9/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:32,584 INFO Successfully ordered 5 upvotes for post. Order ID: 160914
+2025-08-12 00:24:32,712 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:32,713 INFO Upvote order result for https://www.reddit.com/r/playnite/comments/1mnr7v9/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:32,922 INFO Crossposting to r/Handhelds
+2025-08-12 00:24:33,111 ERROR APIException for r/Handhelds: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:24:33,321 INFO Crossposting to r/HandheldGaming
+2025-08-12 00:24:34,092 INFO Crossposted to r/HandheldGaming: https://www.reddit.com/r/HandheldGaming/comments/1mnr7w0/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:34,384 INFO Successfully ordered 5 upvotes for post. Order ID: 160915
+2025-08-12 00:24:34,516 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:34,516 INFO Upvote order result for https://www.reddit.com/r/HandheldGaming/comments/1mnr7w0/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:34,719 INFO Crossposting to r/SBCGaming
+2025-08-12 00:24:34,913 ERROR APIException for r/SBCGaming: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:24:35,141 INFO Crossposting to r/RG35XX
+2025-08-12 00:24:35,916 INFO Crossposted to r/RG35XX: https://www.reddit.com/r/RG35XX/comments/1mnr7wy/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:36,097 INFO Successfully ordered 5 upvotes for post. Order ID: 160916
+2025-08-12 00:24:36,237 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:36,237 INFO Upvote order result for https://www.reddit.com/r/RG35XX/comments/1mnr7wy/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:36,439 INFO Crossposting to r/RG351MP
+2025-08-12 00:24:37,288 INFO Crossposted to r/RG351MP: https://www.reddit.com/r/rg351mp/comments/1mnr7xl/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:24:37,460 INFO Successfully ordered 5 upvotes for post. Order ID: 160917
+2025-08-12 00:24:37,624 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:24:37,624 INFO Upvote order result for https://www.reddit.com/r/rg351mp/comments/1mnr7xl/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:24:56,578 INFO Loaded 1 accounts.
+2025-08-12 00:24:56,578 INFO Ready to crosspost https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/ to 44 subreddits.
+2025-08-12 00:24:56,578 INFO Will buy 5 upvotes for each crosspost.
+2025-08-12 00:24:56,578 INFO Starting crossposting bot...
+2025-08-12 00:24:56,579 INFO Logged in as InevitableCow8909
+2025-08-12 00:24:58,023 INFO Loaded original post: Best emulation handheld again on sale for $22 🥳
+2025-08-12 00:24:58,023 INFO Already crossposted to r/PowKiddyX55Handheld, skipping.
+2025-08-12 00:24:58,023 INFO Already crossposted to r/RGB30, skipping.
+2025-08-12 00:24:58,023 INFO Already crossposted to r/trimui, skipping.
+2025-08-12 00:24:58,023 INFO Already crossposted to r/MiyooMini, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/MiyooFlip, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG28XX, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG351, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG351P, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/rg351v, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/rg351mp, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/rg552, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG353P, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG353V, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG353M, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG505, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/RG405M, skipping.
+2025-08-12 00:24:58,024 INFO Already crossposted to r/ANBERNICRG405V, skipping.
+2025-08-12 00:24:58,173 WARNING Skipping r/rg503: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:24:58,322 WARNING Skipping r/RG300X: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:24:58,322 INFO Already crossposted to r/RG40XX, skipping.
+2025-08-12 00:24:58,322 INFO Already crossposted to r/RG35XX_H, skipping.
+2025-08-12 00:24:58,531 INFO Crossposting to r/RG35XX_Plus
+2025-08-12 00:24:58,761 ERROR APIException for r/RG35XX_Plus: SUBMIT_VALIDATION_MAX_LENGTH: 'This community requires title to be under 40 characters' on field 'title'
+2025-08-12 00:24:58,761 INFO Already crossposted to r/RG556, skipping.
+2025-08-12 00:24:58,761 INFO Already crossposted to r/GKDPIXEL, skipping.
+2025-08-12 00:24:58,761 INFO Already crossposted to r/KTR1, skipping.
+2025-08-12 00:24:58,761 INFO Already crossposted to r/NewPocketGo, skipping.
+2025-08-12 00:24:58,761 INFO Already crossposted to r/BATLEXPG350, skipping.
+2025-08-12 00:24:58,761 INFO Already crossposted to r/LokiHandheld, skipping.
+2025-08-12 00:24:58,981 INFO Crossposting to r/AYNLoki
+2025-08-12 00:24:59,179 ERROR APIException for r/AYNLoki: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:24:59,179 INFO Already crossposted to r/GPDWIN, skipping.
+2025-08-12 00:24:59,179 INFO Already crossposted to r/GPDPocket, skipping.
+2025-08-12 00:24:59,388 INFO Crossposting to r/OneXPlayer
+2025-08-12 00:24:59,601 ERROR APIException for r/OneXPlayer: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:24:59,806 INFO Crossposting to r/MSIClaw
+2025-08-12 00:25:00,032 ERROR APIException for r/MSIClaw: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:25:00,032 INFO Already crossposted to r/EmulationOnAndroid, skipping.
+2025-08-12 00:25:00,242 INFO Crossposting to r/EmulationOnPC
+2025-08-12 00:25:00,471 ERROR APIException for r/EmulationOnPC: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 00:25:00,691 INFO Crossposting to r/EmulationStation
+2025-08-12 00:25:00,908 ERROR APIException for r/EmulationStation: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:25:01,111 WARNING Skipping r/RetroBat: does not exist or inaccessible. Error: received 404 HTTP response
+2025-08-12 00:25:01,112 INFO Already crossposted to r/Portmaster, skipping.
+2025-08-12 00:25:01,112 INFO Already crossposted to r/playnite, skipping.
+2025-08-12 00:25:01,331 INFO Crossposting to r/Handhelds
+2025-08-12 00:25:01,516 ERROR APIException for r/Handhelds: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:25:01,516 INFO Already crossposted to r/HandheldGaming, skipping.
+2025-08-12 00:25:01,719 INFO Crossposting to r/SBCGaming
+2025-08-12 00:25:01,897 ERROR APIException for r/SBCGaming: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:25:01,897 INFO Already crossposted to r/RG35XX, skipping.
+2025-08-12 00:25:01,897 INFO Already crossposted to r/RG351MP, skipping.

@@ -47,14 +47,15 @@ REDDIT_CONFIG = {}  # This will be loaded from accounts.json at runtime
 # Logging Level
 LOG_LEVEL = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
 
-# Handheld Gaming Subreddits for Crossposting
+# Emulation and Gaming Subreddits for Crossposting
 CROSSPOST_SUBREDDITS = [
-    "PowKiddyX55Handheld", "RGB30", "trimui", "MiyooMini", "MiyooFlip", "RG28XX", "RG351", "RG351P", 
-    "rg351v", "rg351mp", "rg552", "RG353P", "RG353V", "RG353M", "RG505", "RG405M", "ANBERNICRG405V", 
-    "rg503", "RG300X", "RG40XX", "RG35XX_H", "RG35XX_Plus", "RG556", "GKDPIXEL", "KTR1", "NewPocketGo", 
-    "BATLEXPG350", "LokiHandheld", "AYNLoki", "GPDWIN", "GPDPocket", "OneXPlayer", "MSIClaw", 
-    "EmulationOnAndroid", "EmulationOnPC", "EmulationStation", "RetroBat", "Portmaster", "playnite", 
-    "Handhelds", "HandheldGaming", "SBCGaming", "RG35XX", "RG351MP"
+    "AmberELEC", "ArkOS", "OnionOS", "GarlicOS", "JELOS", "351ELEC", "Batocera", "Recalbox", "Lakka", 
+    "EmuDeck", "Retroid", "AnaloguePocket", "Evercade", "RetroPie", "Ryujinx", "PPSSPP", "DolphinEmulator", 
+    "PCSX2", "Citra", "melonds", "Cemu", "RetroAchievements", "LaunchBox", "AttractMode", "EmulationOnLinux", 
+    "EmulationOnMac", "AndroidEmulators", "AndroidGaming", "iOSGaming", "Analogue", "rpcs3", "mupen64plus", 
+    "snes9x", "duckstation", "bsnes", "OpenEmu", "redream", "flycast", "mGBA", "SwitchEmulation", "RetroArch", 
+    "MiSTerFPGA", "Lutris", "ChimeraOS", "HeroicGamesLauncher", "LowSpecGaming", "MiniPCs", "UMPC", 
+    "HandheldPCs", "AYN"
 ]
 
 # Crosspost Bot Settings
