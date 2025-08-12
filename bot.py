@@ -135,14 +135,15 @@ def main():
             logger.debug(f"Ordering {UPVOTES_TO_BUY} upvotes for {cross_url}")
             upvote_result = helpers.order_post_upvotes(cross_url, UPVOTES_TO_BUY, account)
             logger.info(f"Upvote order result for {cross_url}: {upvote_result}")
+            
+            # Add delay after successful crosspost to respect rate limits
+            if DELAY_SECONDS > 0:
+                logger.info(f"Waiting {DELAY_SECONDS} seconds before next crosspost...")
+                time.sleep(DELAY_SECONDS)
         except Exception as e:
             logger.error(f"Error crossposting to r/{subreddit_name}: {e}")
+            # No delay after failed crossposts - move quickly to next one
             continue
-        
-        # Add delay between crossposts to respect rate limits
-        if DELAY_SECONDS > 0:
-            logger.info(f"Waiting {DELAY_SECONDS} seconds before next crosspost...")
-            time.sleep(DELAY_SECONDS)
 
 if __name__ == "__main__":
     main() 

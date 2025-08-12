@@ -47,11 +47,17 @@ REDDIT_CONFIG = {}  # This will be loaded from accounts.json at runtime
 # Logging Level
 LOG_LEVEL = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
 
-# Gaming and Tech Subreddits for Crossposting
+# Gaming, Tech, and Emulation Subreddits for Crossposting
 CROSSPOST_SUBREDDITS = [
     "gaming", "Games", "pcgaming", "PCMasterRace", "buildapc", "hardware", "GameDeals", "buildapcsales", 
     "retrogaming", "emulation", "NintendoSwitch", "Steam", "SteamDeck", "PS5", "Xbox", "AndroidGaming", 
-    "Android", "gadgets", "technology", "deals"
+    "Android", "gadgets", "technology", "deals", "AmberELEC", "ArkOS", "OnionOS", "GarlicOS", "JELOS", 
+    "351ELEC", "Batocera", "Recalbox", "Lakka", "EmuDeck", "Retroid", "AnaloguePocket", "Evercade", 
+    "RetroPie", "Ryujinx", "PPSSPP", "DolphinEmulator", "PCSX2", "Citra", "melonds", "Cemu", 
+    "RetroAchievements", "LaunchBox", "AttractMode", "EmulationOnLinux", "EmulationOnMac", "AndroidEmulators", 
+    "AndroidGaming", "iOSGaming", "Analogue", "rpcs3", "mupen64plus", "snes9x", "duckstation", "bsnes", 
+    "OpenEmu", "redream", "flycast", "mGBA", "SwitchEmulation", "RetroArch", "MiSTerFPGA", "Lutris", 
+    "ChimeraOS", "HeroicGamesLauncher", "LowSpecGaming", "MiniPCs", "UMPC", "HandheldPCs", "AYN"
 ]
 
 # Crosspost Bot Settings

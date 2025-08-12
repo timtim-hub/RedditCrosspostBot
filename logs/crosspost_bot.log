@@ -5190,3 +5190,90 @@
 2025-08-12 00:33:44,142 INFO Crossposting to r/HandheldPCs
 2025-08-12 00:33:44,340 ERROR APIException for r/HandheldPCs: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
 2025-08-12 00:33:44,510 WARNING Skipping r/AYN: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 03:16:06,576 INFO Loaded 1 accounts.
+2025-08-12 03:16:06,576 INFO Ready to crosspost https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/ to 20 subreddits.
+2025-08-12 03:16:06,576 INFO Will buy 10 upvotes for each crosspost.
+2025-08-12 03:16:06,576 INFO Delay between crossposts: 60 seconds.
+2025-08-12 03:16:06,576 INFO Starting crossposting bot...
+2025-08-12 03:16:06,727 INFO Logged in as InevitableCow8909
+2025-08-12 03:16:08,715 INFO Loaded original post: Best emulation handheld again on sale for $22 🥳
+2025-08-12 03:16:08,912 INFO Crossposting to r/gaming
+2025-08-12 03:16:09,125 ERROR APIException for r/gaming: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:09,321 INFO Crossposting to r/Games
+2025-08-12 03:16:09,551 ERROR APIException for r/Games: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 03:16:09,764 INFO Crossposting to r/pcgaming
+2025-08-12 03:16:09,995 ERROR APIException for r/pcgaming: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:10,347 INFO Crossposting to r/PCMasterRace
+2025-08-12 03:16:37,700 INFO Loaded 1 accounts.
+2025-08-12 03:16:37,701 INFO Ready to crosspost https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/ to 20 subreddits.
+2025-08-12 03:16:37,701 INFO Will buy 10 upvotes for each crosspost.
+2025-08-12 03:16:37,701 INFO Delay between crossposts: 60 seconds.
+2025-08-12 03:16:37,701 INFO Starting crossposting bot...
+2025-08-12 03:16:37,701 INFO Logged in as InevitableCow8909
+2025-08-12 03:16:39,204 INFO Loaded original post: Best emulation handheld again on sale for $22 🥳
+2025-08-12 03:16:39,415 INFO Crossposting to r/gaming
+2025-08-12 03:16:39,641 ERROR APIException for r/gaming: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:39,836 INFO Crossposting to r/Games
+2025-08-12 03:16:40,060 ERROR APIException for r/Games: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 03:16:40,254 INFO Crossposting to r/pcgaming
+2025-08-12 03:16:40,476 ERROR APIException for r/pcgaming: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:40,690 INFO Crossposting to r/PCMasterRace
+2025-08-12 03:16:40,918 INFO Flair required for r/PCMasterRace, attempting with flair.
+2025-08-12 03:16:41,098 INFO Using flair id 68ac3f50-c51a-11e3-baa8-12313d06c56f for r/PCMasterRace
+2025-08-12 03:16:41,311 ERROR Failed to crosspost with flair to r/PCMasterRace: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 03:16:41,532 INFO Crossposting to r/buildapc
+2025-08-12 03:16:41,784 INFO Flair required for r/buildapc, attempting with flair.
+2025-08-12 03:16:41,971 INFO Using flair id 7338e9ba-5cc3-11e3-9815-12313b0ae6f4 for r/buildapc
+2025-08-12 03:16:42,193 ERROR Failed to crosspost with flair to r/buildapc: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:42,409 INFO Crossposting to r/hardware
+2025-08-12 03:16:42,705 INFO Flair required for r/hardware, attempting with flair.
+2025-08-12 03:16:42,890 INFO Using flair id e763e51e-c141-11e3-b9ac-12313d31e5b1 for r/hardware
+2025-08-12 03:16:43,106 ERROR Failed to crosspost with flair to r/hardware: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 03:16:43,310 INFO Crossposting to r/GameDeals
+2025-08-12 03:16:43,538 ERROR APIException for r/GameDeals: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'), RedditErrorItem(error_type='SUBMIT_VALIDATION_TITLE_REGEX_REQUIREMENT', message='Your title does not meet the requirements for this community. See the rules for more details.', field='title'))
+2025-08-12 03:16:43,764 INFO Crossposting to r/buildapcsales
+2025-08-12 03:16:44,005 INFO Flair required for r/buildapcsales, attempting with flair.
+2025-08-12 03:16:44,195 INFO Using flair id 0851bb02-a814-11e4-837c-22000bc1c26c for r/buildapcsales
+2025-08-12 03:16:44,423 ERROR Failed to crosspost with flair to r/buildapcsales: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'), RedditErrorItem(error_type='SUBMIT_VALIDATION_TITLE_REGEX_REQUIREMENT', message='Your title does not meet the requirements for this community. See the rules for more details.', field='title'))
+2025-08-12 03:16:44,638 INFO Crossposting to r/retrogaming
+2025-08-12 03:16:44,959 INFO Flair required for r/retrogaming, attempting with flair.
+2025-08-12 03:16:45,167 INFO Using flair id c551523c-c753-11e8-898e-0e43c4b02606 for r/retrogaming
+2025-08-12 03:16:45,386 ERROR Failed to crosspost with flair to r/retrogaming: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 03:16:45,597 INFO Crossposting to r/emulation
+2025-08-12 03:16:45,818 ERROR APIException for r/emulation: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 03:16:46,087 INFO Crossposting to r/NintendoSwitch
+2025-08-12 03:16:46,315 INFO Flair required for r/NintendoSwitch, attempting with flair.
+2025-08-12 03:16:46,506 INFO Using flair id 7d73109c-985a-11e6-9985-0ee3b47262ae for r/NintendoSwitch
+2025-08-12 03:16:47,417 INFO Crossposted to r/NintendoSwitch: https://www.reddit.com/r/NintendoSwitch/comments/1mnv6pc/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 03:16:47,687 INFO Successfully ordered 10 upvotes for post. Order ID: 160939
+2025-08-12 03:16:47,823 INFO Order status: {"error": "Incorrect order ID"}
+2025-08-12 03:16:47,824 INFO Upvote order result for https://www.reddit.com/r/NintendoSwitch/comments/1mnv6pc/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Incorrect order ID'}
+2025-08-12 03:16:47,824 INFO Waiting 60 seconds before next crosspost...
+2025-08-12 03:17:48,052 INFO Crossposting to r/Steam
+2025-08-12 03:17:48,271 INFO Flair required for r/Steam, attempting with flair.
+2025-08-12 03:17:48,462 INFO Using flair id a0675e12-cd27-11e6-b44e-0eac804d3778 for r/Steam
+2025-08-12 03:17:49,368 INFO Crossposted to r/Steam: https://www.reddit.com/r/Steam/comments/1mnv7g8/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 03:17:49,561 INFO Successfully ordered 10 upvotes for post. Order ID: 160940
+2025-08-12 03:17:49,694 INFO Order status: {"charge": "0.27", "start_count": null, "status": "Pending", "remains": "10", "currency": "USD"}
+2025-08-12 03:17:49,695 INFO Upvote order result for https://www.reddit.com/r/Steam/comments/1mnv7g8/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.27', 'start_count': None, 'status': 'Pending', 'remains': '10', 'currency': 'USD'}
+2025-08-12 03:17:49,695 INFO Waiting 60 seconds before next crosspost...
+2025-08-12 03:18:50,040 INFO Crossposting to r/SteamDeck
+2025-08-12 03:18:50,282 INFO Flair required for r/SteamDeck, attempting with flair.
+2025-08-12 03:18:50,487 INFO Using flair id b9a641d4-e67e-11eb-90dc-0e0ed4b9d655 for r/SteamDeck
+2025-08-12 03:18:50,708 ERROR Failed to crosspost with flair to r/SteamDeck: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 03:18:50,921 INFO Crossposting to r/PS5
+2025-08-12 03:18:51,148 INFO Flair required for r/PS5, attempting with flair.
+2025-08-12 03:18:51,349 INFO Using flair id 3f48433c-051a-11ec-9fba-6a90533dcd85 for r/PS5
+2025-08-12 03:18:51,627 ERROR Failed to crosspost with flair to r/PS5: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 03:18:51,855 INFO Crossposting to r/Xbox
+2025-08-12 03:18:52,089 INFO Flair required for r/Xbox, attempting with flair.
+2025-08-12 03:18:52,301 INFO Using flair id 34d0ad4e-8d8a-11ef-95f3-727151bf581d for r/Xbox
+2025-08-12 03:18:52,527 ERROR Failed to crosspost with flair to r/Xbox: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 03:18:52,734 INFO Crossposting to r/AndroidGaming
+2025-08-12 03:18:52,959 INFO Flair required for r/AndroidGaming, attempting with flair.
+2025-08-12 03:18:53,156 INFO Using flair id c02fbd9e-c05d-11e4-9143-22000b3186c8 for r/AndroidGaming
+2025-08-12 03:18:54,197 INFO Crossposted to r/AndroidGaming: https://www.reddit.com/r/AndroidGaming/comments/1mnv8ag/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 03:18:54,416 INFO Successfully ordered 10 upvotes for post. Order ID: 160941
+2025-08-12 03:18:54,563 INFO Order status: {"charge": "0.27", "start_count": null, "status": "Pending", "remains": "10", "currency": "USD"}
+2025-08-12 03:18:54,564 INFO Upvote order result for https://www.reddit.com/r/AndroidGaming/comments/1mnv8ag/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.27', 'start_count': None, 'status': 'Pending', 'remains': '10', 'currency': 'USD'}
+2025-08-12 03:18:54,564 INFO Waiting 60 seconds before next crosspost...
