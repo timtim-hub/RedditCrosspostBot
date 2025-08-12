@@ -2,6 +2,7 @@ import os
 import sys
 import logging
 import json
+import time
 from pathlib import Path
 import praw
 from utils import helpers
@@ -42,8 +43,12 @@ SUBREDDITS = getattr(settings, 'CROSSPOST_SUBREDDITS', [])
 # Number of upvotes to buy for each crosspost
 UPVOTES_TO_BUY = getattr(settings, 'CROSSPOST_UPVOTES_TO_BUY', 5)
 
+# Delay between crossposts
+DELAY_SECONDS = getattr(settings, 'CROSSPOST_DELAY_SECONDS', 60)
+
 logger.info(f"Ready to crosspost {POST_URL} to {len(SUBREDDITS)} subreddits.")
 logger.info(f"Will buy {UPVOTES_TO_BUY} upvotes for each crosspost.")
+logger.info(f"Delay between crossposts: {DELAY_SECONDS} seconds.")
 
 # File to track already crossposted subreddits
 CROSSPOSTED_FILE = Path(__file__).parent / 'crossposted_subreddits.json'
@@ -133,6 +138,11 @@ def main():
         except Exception as e:
             logger.error(f"Error crossposting to r/{subreddit_name}: {e}")
             continue
+        
+        # Add delay between crossposts to respect rate limits
+        if DELAY_SECONDS > 0:
+            logger.info(f"Waiting {DELAY_SECONDS} seconds before next crosspost...")
+            time.sleep(DELAY_SECONDS)
 
 if __name__ == "__main__":
     main() 

@@ -5011,3 +5011,182 @@
 2025-08-12 00:25:01,897 ERROR APIException for r/SBCGaming: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
 2025-08-12 00:25:01,897 INFO Already crossposted to r/RG35XX, skipping.
 2025-08-12 00:25:01,897 INFO Already crossposted to r/RG351MP, skipping.
+2025-08-12 00:32:58,410 INFO Loaded 1 accounts.
+2025-08-12 00:32:58,410 INFO Ready to crosspost https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/ to 50 subreddits.
+2025-08-12 00:32:58,410 INFO Will buy 5 upvotes for each crosspost.
+2025-08-12 00:32:58,410 INFO Starting crossposting bot...
+2025-08-12 00:32:58,410 INFO Logged in as InevitableCow8909
+2025-08-12 00:32:59,786 INFO Loaded original post: Best emulation handheld again on sale for $22 🥳
+2025-08-12 00:32:59,947 WARNING Skipping r/AmberELEC: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:00,208 INFO Crossposting to r/ArkOS
+2025-08-12 00:33:00,414 ERROR APIException for r/ArkOS: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:00,629 WARNING Skipping r/OnionOS: does not exist or inaccessible. Error: received 403 HTTP response
+2025-08-12 00:33:00,792 WARNING Skipping r/GarlicOS: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:01,116 WARNING Skipping r/JELOS: does not exist or inaccessible. Error: received 403 HTTP response
+2025-08-12 00:33:01,276 WARNING Skipping r/351ELEC: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:01,480 INFO Crossposting to r/Batocera
+2025-08-12 00:33:02,296 INFO Crossposted to r/Batocera: https://www.reddit.com/r/batocera/comments/1mnrfdv/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:02,529 INFO Successfully ordered 5 upvotes for post. Order ID: 160918
+2025-08-12 00:33:02,668 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:02,669 INFO Upvote order result for https://www.reddit.com/r/batocera/comments/1mnrfdv/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:02,904 INFO Crossposting to r/Recalbox
+2025-08-12 00:33:03,642 INFO Crossposted to r/Recalbox: https://www.reddit.com/r/recalbox/comments/1mnrfem/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:03,818 INFO Successfully ordered 5 upvotes for post. Order ID: 160919
+2025-08-12 00:33:03,956 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:03,957 INFO Upvote order result for https://www.reddit.com/r/recalbox/comments/1mnrfem/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:04,197 INFO Crossposting to r/Lakka
+2025-08-12 00:33:04,441 INFO Flair required for r/Lakka, attempting with flair.
+2025-08-12 00:33:04,627 INFO Using flair id 457f97b6-49ab-11ec-b36f-16b641422be6 for r/Lakka
+2025-08-12 00:33:05,467 INFO Crossposted to r/Lakka: https://www.reddit.com/r/Lakka/comments/1mnrffj/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:05,648 INFO Successfully ordered 5 upvotes for post. Order ID: 160920
+2025-08-12 00:33:05,786 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:05,787 INFO Upvote order result for https://www.reddit.com/r/Lakka/comments/1mnrffj/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:05,984 INFO Crossposting to r/EmuDeck
+2025-08-12 00:33:06,189 ERROR APIException for r/EmuDeck: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 00:33:06,393 INFO Crossposting to r/Retroid
+2025-08-12 00:33:06,566 ERROR APIException for r/Retroid: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:33:06,773 INFO Crossposting to r/AnaloguePocket
+2025-08-12 00:33:07,570 INFO Crossposted to r/AnaloguePocket: https://www.reddit.com/r/AnaloguePocket/comments/1mnrfh1/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:07,786 INFO Successfully ordered 5 upvotes for post. Order ID: 160921
+2025-08-12 00:33:07,921 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:07,922 INFO Upvote order result for https://www.reddit.com/r/AnaloguePocket/comments/1mnrfh1/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:08,137 INFO Crossposting to r/Evercade
+2025-08-12 00:33:08,898 INFO Crossposted to r/Evercade: https://www.reddit.com/r/evercade/comments/1mnrfhm/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:09,088 INFO Successfully ordered 5 upvotes for post. Order ID: 160922
+2025-08-12 00:33:09,219 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:09,220 INFO Upvote order result for https://www.reddit.com/r/evercade/comments/1mnrfhm/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:09,425 INFO Crossposting to r/RetroPie
+2025-08-12 00:33:10,192 INFO Crossposted to r/RetroPie: https://www.reddit.com/r/RetroPie/comments/1mnrfie/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:10,510 INFO Successfully ordered 5 upvotes for post. Order ID: 160923
+2025-08-12 00:33:10,785 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:10,786 INFO Upvote order result for https://www.reddit.com/r/RetroPie/comments/1mnrfie/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:10,993 INFO Crossposting to r/Ryujinx
+2025-08-12 00:33:11,221 ERROR APIException for r/Ryujinx: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'), RedditErrorItem(error_type='SUBMIT_VALIDATION_MAX_LENGTH', message='This community requires title to be under 2 characters', field='title'), RedditErrorItem(error_type='SUBMIT_VALIDATION_TITLE_REGEX_REQUIREMENT', message='Your title does not meet the requirements for this community. See the rules for more details.', field='title'))
+2025-08-12 00:33:11,443 INFO Crossposting to r/PPSSPP
+2025-08-12 00:33:11,635 ERROR APIException for r/PPSSPP: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:11,861 INFO Crossposting to r/DolphinEmulator
+2025-08-12 00:33:12,063 INFO Flair required for r/DolphinEmulator, attempting with flair.
+2025-08-12 00:33:12,237 INFO Using flair id ed43f70c-dd89-11e4-a374-22000bc14714 for r/DolphinEmulator
+2025-08-12 00:33:13,097 INFO Crossposted to r/DolphinEmulator: https://www.reddit.com/r/DolphinEmulator/comments/1mnrfk1/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:13,291 INFO Successfully ordered 5 upvotes for post. Order ID: 160924
+2025-08-12 00:33:13,428 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:13,429 INFO Upvote order result for https://www.reddit.com/r/DolphinEmulator/comments/1mnrfk1/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:13,639 INFO Crossposting to r/PCSX2
+2025-08-12 00:33:13,916 INFO Flair required for r/PCSX2, attempting with flair.
+2025-08-12 00:33:14,112 INFO Using flair id 35167112-7b83-11ea-a195-0e5d74b531dd for r/PCSX2
+2025-08-12 00:33:14,426 ERROR Failed to crosspost with flair to r/PCSX2: (RedditErrorItem(error_type='NO_CROSSPOSTS', message="This community doesn't allow crossposts", field='sr'), RedditErrorItem(error_type='NO_VIDEOS', message="This community doesn't allow videos", field='sr'))
+2025-08-12 00:33:14,626 INFO Crossposting to r/Citra
+2025-08-12 00:33:14,862 INFO Flair required for r/Citra, attempting with flair.
+2025-08-12 00:33:15,062 INFO Using flair id 06a49c6c-ff3e-11e4-9b8d-0e41ca822e81 for r/Citra
+2025-08-12 00:33:15,844 INFO Crossposted to r/Citra: https://www.reddit.com/r/Citra/comments/1mnrfl9/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:16,013 INFO Successfully ordered 5 upvotes for post. Order ID: 160925
+2025-08-12 00:33:16,147 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:16,148 INFO Upvote order result for https://www.reddit.com/r/Citra/comments/1mnrfl9/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:16,365 INFO Crossposting to r/melonds
+2025-08-12 00:33:17,164 INFO Crossposted to r/melonds: https://www.reddit.com/r/melonds/comments/1mnrflu/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:17,373 INFO Successfully ordered 5 upvotes for post. Order ID: 160926
+2025-08-12 00:33:17,543 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:17,544 INFO Upvote order result for https://www.reddit.com/r/melonds/comments/1mnrflu/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:17,763 INFO Crossposting to r/Cemu
+2025-08-12 00:33:17,983 INFO Flair required for r/Cemu, attempting with flair.
+2025-08-12 00:33:18,170 INFO Using flair id 1b8c390e-73de-11e5-a601-0e355ac73a6f for r/Cemu
+2025-08-12 00:33:18,388 ERROR Failed to crosspost with flair to r/Cemu: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:33:18,592 INFO Crossposting to r/RetroAchievements
+2025-08-12 00:33:19,449 INFO Crossposted to r/RetroAchievements: https://www.reddit.com/r/RetroAchievements/comments/1mnrfn0/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:19,637 INFO Successfully ordered 5 upvotes for post. Order ID: 160927
+2025-08-12 00:33:19,783 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:19,784 INFO Upvote order result for https://www.reddit.com/r/RetroAchievements/comments/1mnrfn0/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:19,996 INFO Crossposting to r/LaunchBox
+2025-08-12 00:33:20,811 INFO Crossposted to r/LaunchBox: https://www.reddit.com/r/launchbox/comments/1mnrfnj/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:21,006 INFO Successfully ordered 5 upvotes for post. Order ID: 160928
+2025-08-12 00:33:21,211 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:21,212 INFO Upvote order result for https://www.reddit.com/r/launchbox/comments/1mnrfnj/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:21,458 INFO Crossposting to r/AttractMode
+2025-08-12 00:33:21,643 ERROR APIException for r/AttractMode: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:21,781 WARNING Skipping r/EmulationOnLinux: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:21,934 WARNING Skipping r/EmulationOnMac: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:22,454 WARNING Skipping r/AndroidEmulators: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:22,652 INFO Crossposting to r/AndroidGaming
+2025-08-12 00:33:23,265 INFO Flair required for r/AndroidGaming, attempting with flair.
+2025-08-12 00:33:23,450 INFO Using flair id c02fbd9e-c05d-11e4-9143-22000b3186c8 for r/AndroidGaming
+2025-08-12 00:33:24,230 INFO Crossposted to r/AndroidGaming: https://www.reddit.com/r/AndroidGaming/comments/1mnrfp7/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:24,436 INFO Successfully ordered 5 upvotes for post. Order ID: 160929
+2025-08-12 00:33:24,586 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:24,587 INFO Upvote order result for https://www.reddit.com/r/AndroidGaming/comments/1mnrfp7/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:24,888 INFO Crossposting to r/iOSGaming
+2025-08-12 00:33:25,131 INFO Flair required for r/iOSGaming, attempting with flair.
+2025-08-12 00:33:25,330 INFO Using flair id 9aede144-6ff1-11e9-b591-0e5e5ef9522c for r/iOSGaming
+2025-08-12 00:33:26,071 INFO Crossposted to r/iOSGaming: https://www.reddit.com/r/iosgaming/comments/1mnrfq9/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:26,296 INFO Successfully ordered 5 upvotes for post. Order ID: 160930
+2025-08-12 00:33:26,425 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:26,426 INFO Upvote order result for https://www.reddit.com/r/iosgaming/comments/1mnrfq9/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:26,646 INFO Crossposting to r/Analogue
+2025-08-12 00:33:26,829 ERROR APIException for r/Analogue: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:27,043 INFO Crossposting to r/rpcs3
+2025-08-12 00:33:27,225 ERROR APIException for r/rpcs3: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:27,385 WARNING Skipping r/mupen64plus: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:27,603 INFO Crossposting to r/snes9x
+2025-08-12 00:33:28,382 INFO Crossposted to r/snes9x: https://www.reddit.com/r/SNES9X/comments/1mnrfr8/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:28,568 INFO Successfully ordered 5 upvotes for post. Order ID: 160931
+2025-08-12 00:33:28,692 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:28,693 INFO Upvote order result for https://www.reddit.com/r/SNES9X/comments/1mnrfr8/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:28,902 INFO Crossposting to r/duckstation
+2025-08-12 00:33:29,129 INFO Flair required for r/duckstation, attempting with flair.
+2025-08-12 00:33:29,314 INFO Using flair id f009cf7e-9612-11ef-bd87-963f8c95e930 for r/duckstation
+2025-08-12 00:33:30,168 INFO Crossposted to r/duckstation: https://www.reddit.com/r/duckstation/comments/1mnrfrz/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:30,368 INFO Successfully ordered 5 upvotes for post. Order ID: 160932
+2025-08-12 00:33:30,572 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:30,572 INFO Upvote order result for https://www.reddit.com/r/duckstation/comments/1mnrfrz/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:30,735 WARNING Skipping r/bsnes: does not exist or inaccessible. Error: Redirect to /subreddits/search
+2025-08-12 00:33:30,936 INFO Crossposting to r/OpenEmu
+2025-08-12 00:33:31,167 INFO Flair required for r/OpenEmu, attempting with flair.
+2025-08-12 00:33:31,347 INFO Using flair id 4a6ebd92-9fdb-11e3-a96c-22000aa47206 for r/OpenEmu
+2025-08-12 00:33:32,145 INFO Crossposted to r/OpenEmu: https://www.reddit.com/r/OpenEmu/comments/1mnrftk/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:32,377 INFO Successfully ordered 5 upvotes for post. Order ID: 160933
+2025-08-12 00:33:32,519 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:32,521 INFO Upvote order result for https://www.reddit.com/r/OpenEmu/comments/1mnrftk/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:32,753 INFO Crossposting to r/redream
+2025-08-12 00:33:32,968 INFO Flair required for r/redream, attempting with flair.
+2025-08-12 00:33:33,153 INFO Using flair id f5158822-a2da-11e9-8e10-0ed63aa7b582 for r/redream
+2025-08-12 00:33:33,936 INFO Crossposted to r/redream: https://www.reddit.com/r/redream/comments/1mnrfun/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:34,131 INFO Successfully ordered 5 upvotes for post. Order ID: 160934
+2025-08-12 00:33:34,306 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:34,308 INFO Upvote order result for https://www.reddit.com/r/redream/comments/1mnrfun/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:34,543 INFO Crossposting to r/flycast
+2025-08-12 00:33:34,775 INFO Flair required for r/flycast, attempting with flair.
+2025-08-12 00:33:34,963 INFO Using flair id 15261044-3694-11ef-9b84-06de15265002 for r/flycast
+2025-08-12 00:33:35,933 INFO Crossposted to r/flycast: https://www.reddit.com/r/FlyCast/comments/1mnrfvf/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:36,142 INFO Successfully ordered 5 upvotes for post. Order ID: 160935
+2025-08-12 00:33:36,278 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:36,279 INFO Upvote order result for https://www.reddit.com/r/FlyCast/comments/1mnrfvf/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:36,500 INFO Crossposting to r/mGBA
+2025-08-12 00:33:36,687 ERROR APIException for r/mGBA: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:36,903 WARNING Skipping r/SwitchEmulation: does not exist or inaccessible. Error: received 403 HTTP response
+2025-08-12 00:33:37,112 INFO Crossposting to r/RetroArch
+2025-08-12 00:33:37,293 ERROR APIException for r/RetroArch: SUBREDDIT_NOTALLOWED_BANNED: "You've been banned from contributing to this community" on field 'sr'
+2025-08-12 00:33:37,509 INFO Crossposting to r/MiSTerFPGA
+2025-08-12 00:33:37,730 ERROR APIException for r/MiSTerFPGA: NO_CROSSPOSTS: "This community doesn't allow crossposts" on field 'sr'
+2025-08-12 00:33:37,964 INFO Crossposting to r/Lutris
+2025-08-12 00:33:38,192 ERROR APIException for r/Lutris: NO_VIDEOS: "This community doesn't allow videos" on field 'sr'
+2025-08-12 00:33:38,409 INFO Crossposting to r/ChimeraOS
+2025-08-12 00:33:39,312 INFO Crossposted to r/ChimeraOS: https://www.reddit.com/r/ChimeraOS/comments/1mnrfx3/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:39,505 INFO Successfully ordered 5 upvotes for post. Order ID: 160936
+2025-08-12 00:33:39,720 INFO Order status: {"charge": "0.135", "start_count": null, "status": "Pending", "remains": "5", "currency": "USD"}
+2025-08-12 00:33:39,722 INFO Upvote order result for https://www.reddit.com/r/ChimeraOS/comments/1mnrfx3/best_emulation_handheld_again_on_sale_for_22/: {'charge': '0.135', 'start_count': None, 'status': 'Pending', 'remains': '5', 'currency': 'USD'}
+2025-08-12 00:33:39,946 INFO Crossposting to r/HeroicGamesLauncher
+2025-08-12 00:33:40,791 INFO Crossposted to r/HeroicGamesLauncher: https://www.reddit.com/r/HeroicGamesLauncher/comments/1mnrfxy/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:40,966 ERROR Failed to order upvotes: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:40,967 INFO Upvote order result for https://www.reddit.com/r/HeroicGamesLauncher/comments/1mnrfxy/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:41,189 INFO Crossposting to r/LowSpecGaming
+2025-08-12 00:33:41,375 ERROR APIException for r/LowSpecGaming: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:41,570 INFO Crossposting to r/MiniPCs
+2025-08-12 00:33:42,428 INFO Crossposted to r/MiniPCs: https://www.reddit.com/r/MiniPCs/comments/1mnrfyz/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:42,575 ERROR Failed to order upvotes: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:42,576 INFO Upvote order result for https://www.reddit.com/r/MiniPCs/comments/1mnrfyz/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:42,793 INFO Crossposting to r/UMPC
+2025-08-12 00:33:43,716 INFO Crossposted to r/UMPC: https://www.reddit.com/r/umpc/comments/1mnrfzn/best_emulation_handheld_again_on_sale_for_22/
+2025-08-12 00:33:43,889 ERROR Failed to order upvotes: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:43,890 INFO Upvote order result for https://www.reddit.com/r/umpc/comments/1mnrfzn/best_emulation_handheld_again_on_sale_for_22/: {'error': 'Not enough funds on balance'}
+2025-08-12 00:33:44,142 INFO Crossposting to r/HandheldPCs
+2025-08-12 00:33:44,340 ERROR APIException for r/HandheldPCs: SUBREDDIT_NOTALLOWED: 'This community only allows trusted members to post here' on field 'sr'
+2025-08-12 00:33:44,510 WARNING Skipping r/AYN: does not exist or inaccessible. Error: Redirect to /subreddits/search

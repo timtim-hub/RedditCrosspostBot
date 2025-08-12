@@ -47,16 +47,13 @@ REDDIT_CONFIG = {}  # This will be loaded from accounts.json at runtime
 # Logging Level
 LOG_LEVEL = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
 
-# Emulation and Gaming Subreddits for Crossposting
+# Gaming and Tech Subreddits for Crossposting
 CROSSPOST_SUBREDDITS = [
-    "AmberELEC", "ArkOS", "OnionOS", "GarlicOS", "JELOS", "351ELEC", "Batocera", "Recalbox", "Lakka", 
-    "EmuDeck", "Retroid", "AnaloguePocket", "Evercade", "RetroPie", "Ryujinx", "PPSSPP", "DolphinEmulator", 
-    "PCSX2", "Citra", "melonds", "Cemu", "RetroAchievements", "LaunchBox", "AttractMode", "EmulationOnLinux", 
-    "EmulationOnMac", "AndroidEmulators", "AndroidGaming", "iOSGaming", "Analogue", "rpcs3", "mupen64plus", 
-    "snes9x", "duckstation", "bsnes", "OpenEmu", "redream", "flycast", "mGBA", "SwitchEmulation", "RetroArch", 
-    "MiSTerFPGA", "Lutris", "ChimeraOS", "HeroicGamesLauncher", "LowSpecGaming", "MiniPCs", "UMPC", 
-    "HandheldPCs", "AYN"
+    "gaming", "Games", "pcgaming", "PCMasterRace", "buildapc", "hardware", "GameDeals", "buildapcsales", 
+    "retrogaming", "emulation", "NintendoSwitch", "Steam", "SteamDeck", "PS5", "Xbox", "AndroidGaming", 
+    "Android", "gadgets", "technology", "deals"
 ]
 
 # Crosspost Bot Settings
-CROSSPOST_UPVOTES_TO_BUY = 5  # Number of upvotes to buy for each crosspost
+CROSSPOST_UPVOTES_TO_BUY = 10  # Number of upvotes to buy for each crosspost
+CROSSPOST_DELAY_SECONDS = 60  # Delay between crossposts (1 minute = 60 seconds)
