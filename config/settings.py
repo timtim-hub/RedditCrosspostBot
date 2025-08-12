@@ -50,7 +50,7 @@ LOG_LEVEL = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
 # Gaming, Tech, and Emulation Subreddits for Crossposting
 CROSSPOST_SUBREDDITS = [
     "gaming", "Games", "pcgaming", "PCMasterRace", "buildapc", "hardware", "GameDeals", "buildapcsales", 
-    "retrogaming", "emulation", "NintendoSwitch", "Steam", "SteamDeck", "PS5", "Xbox", "AndroidGaming", 
+    "retrogaming", "emulation", "NintendoSwitch", "SteamDeck", "PS5", "Xbox", "AndroidGaming", 
     "Android", "gadgets", "technology", "deals", "AmberELEC", "ArkOS", "OnionOS", "GarlicOS", "JELOS", 
     "351ELEC", "Batocera", "Recalbox", "Lakka", "EmuDeck", "Retroid", "AnaloguePocket", "Evercade", 
     "RetroPie", "Ryujinx", "PPSSPP", "DolphinEmulator", "PCSX2", "Citra", "melonds", "Cemu", 

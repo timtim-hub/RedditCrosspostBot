@@ -35,7 +35,7 @@ with open(accounts_path, 'r') as f:
 logger.info(f"Loaded {len(accounts)} accounts.")
 
 # Hardcoded Reddit post URL to crosspost
-POST_URL = "https://www.reddit.com/r/China_Dealradar/comments/1mmzgyy/best_emulation_handheld_again_on_sale_for_22/"
+POST_URL = "https://www.reddit.com/r/China_Dealradar/comments/1lifn23/r36s_again_on_sale_for_22/"
 
 # List of subreddits to crosspost to
 SUBREDDITS = getattr(settings, 'CROSSPOST_SUBREDDITS', [])
